@@ -1,0 +1,120 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f5f7fb;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: #0a2540;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero {
+    height: 420px;
+    background: linear-gradient(to right, #0a2540, #1f5eff);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 32px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    background: #ff7a00;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Courses */
+.courses {
+    padding: 40px;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    width: 260px;
+    margin: 15px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* About */
+.about {
+    background: #1f5eff;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* Contact */
+.contact {
+    padding: 40px;
+    text-align: center;
+}
+
+input, textarea {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+button {
+    background: #1f5eff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background: #0a2540;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
